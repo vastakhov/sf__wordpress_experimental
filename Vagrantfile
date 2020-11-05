@@ -9,4 +9,4 @@ mkdir wordpress
 cd wordpress
 wget https://raw.githubusercontent.com/vastakhov/sf__wordpress_experimental/main/wp.yml
 docker-compose -f wp.yml -d up"
-    end
+  end
