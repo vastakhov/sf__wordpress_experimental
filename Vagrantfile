@@ -7,6 +7,6 @@ Vagrant.configure("2") do |config|
 apt install -y docker.io docker-compose
 mkdir wordpress
 cd wordpress
-wget https://raw.githubusercontent.com/vastakhov/test/main/wp.yml
-docker-compose -f wp.yml up"
+wget https://raw.githubusercontent.com/vastakhov/sf__wordpress_experimental/main/wp.yml
+docker-compose -f wp.yml -d up"
     end
